@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - Nuke (5.2)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - RxCocoa (4.1.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - Shimmer (1.0.2)
+  - SwaggerClient (0.0.1):
+    - Alamofire (~> 4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6)
+  - Charts
+  - Nuke (~> 5.0)
+  - NVActivityIndicatorView
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SDWebImage
+  - Shimmer
+  - SwaggerClient (from `ServerAPI`)
+
+EXTERNAL SOURCES:
+  SwaggerClient:
+    :path: ServerAPI
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  Nuke: 5f420c4637415f979c83afb35e73176dd03232d9
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  RxCocoa: cc1fec49cdc8fabe645964de7c51c099a36c2aa8
+  RxSwift: 4219941c1244c88002901bd87a69d3aea9ae71f0
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SwaggerClient: 732874d68e84527032f6b389bee78e3be4c59019
+
+PODFILE CHECKSUM: f2aa3cd9670eebcc8d01ebcefc024de63ca6164d
+
+COCOAPODS: 1.3.1
